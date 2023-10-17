@@ -33,3 +33,6 @@ Derive insights into healthcare trends, patient demographics, and treatment outc
 Empower healthcare administrators and policymakers with data-driven decision-making tools.
 Enhance skills in Poatgresql database management and data analysis.
 Confront real-world data challenges and refine problem-solving abilities.
+
+
+Languages used : PostgreSQL
