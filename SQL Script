@@ -13,19 +13,19 @@ CREATE TABLE patients (
 
 select * from patients
 
-INSERT INTO patients VALUES
-(101, 'John Smith', '1980-01-01', '123 Main St, Anytown USA', '555-555-1234', 'john.smith@example.com', 6.0, 180, '55', 'male'),
-(102, 'Mary Johnson', '1975-02-15', '456 Elm St, Anytown USA', '555-555-5678', 'mary.johnson@example.com', 5.6, 140, '40', 'female'),
-(103, 'David Lee', '1992-07-23', '789 Oak St, Anytown USA', '555-555-9012', 'david.lee@example.com', 5.8, 160, '35', 'male'),
-(104, 'Karen Chen', '1988-04-12', '1010 Pine St, Anytown USA', '555-555-3456', 'karen.chen@example.com', 5.5, 120, '55', 'female'),
-(105, 'James Kim', '1971-11-30', '1313 Maple St, Anytown USA', '555-555-7890', 'james.kim@example.com', 6.2, 200, '35', 'male'),
-(106, 'Lisa Nguyen', '1999-03-07', '1515 Cedar St, Anytown USA', '555-555-2345', 'lisa.nguyen@example.com', 5.4, 110, '39', 'female'),
-(107, 'Robert Brown', '1985-09-18', '1717 Pine St, Anytown USA', '555-555-6789', 'robert.brown@example.com', 5.9, 170, '60', 'male'),
-(108, 'Emma Davis', '1995-06-25', '1919 Oak St, Anytown USA', '555-555-0123', 'emma.davis@example.com', 5.7, 150, '29', 'female'),
-(109, 'Michael Johnson', '1982-12-03', '2222 Elm St, Anytown USA', '555-555-4444', 'michael.johnson@example.com', 6.1, 190, '42', 'male'),
-(110, 'Jennifer Lee', '1991-05-20', '2525 Oak St, Anytown USA', '555-555-6789', 'jennifer.lee@example.com', 5.8, 140, '30', 'female'),
-(111, 'alexy forster', '1990-06-17', '1345 atlanta oakstreet USA', '555-3456-1234', 'forstera@example.com', 5.6, 190, '32', 'male'),
-(112, 'megan jenna', '1998--5-13', '2345 cambrdigestreet USA', '555-1980-4878', 'jenna@example.com', 5.8, 169, '27', 'female');
+-----INSERT INTO patients VALUES
+    (101, 'John Smith', '1980-01-01', '123 Main St, Anytown USA', '555-555-1234', 'john.smith@example.com', 6.0, 180, '55', 'male'),
+    (102, 'Mary Johnson', '1975-02-15', '456 Elm St, Anytown USA', '555-555-5678', 'mary.johnson@example.com', 5.6, 140, '40', 'female'),
+    (103, 'David Lee', '1992-07-23', '789 Oak St, Anytown USA', '555-555-9012', 'david.lee@example.com', 5.8, 160, '35', 'male'),
+    (104, 'Karen Chen', '1988-04-12', '1010 Pine St, Anytown USA', '555-555-3456', 'karen.chen@example.com', 5.5, 120, '55', 'female'),
+    (105, 'James Kim', '1971-11-30', '1313 Maple St, Anytown USA', '555-555-7890', 'james.kim@example.com', 6.2, 200, '35', 'male'),
+    (106, 'Lisa Nguyen', '1999-03-07', '1515 Cedar St, Anytown USA', '555-555-2345', 'lisa.nguyen@example.com', 5.4, 110, '39', 'female'),
+    (107, 'Robert Brown', '1985-09-18', '1717 Pine St, Anytown USA', '555-555-6789', 'robert.brown@example.com', 5.9, 170, '60', 'male'),
+    (108, 'Emma Davis', '1995-06-25', '1919 Oak St, Anytown USA', '555-555-0123', 'emma.davis@example.com', 5.7, 150, '29', 'female'),
+    (109, 'Michael Johnson', '1982-12-03', '2222 Elm St, Anytown USA', '555-555-4444', 'michael.johnson@example.com', 6.1, 190, '42', 'male'),
+    (110, 'Jennifer Lee', '1991-05-20', '2525 Oak St, Anytown USA', '555-555-6789', 'jennifer.lee@example.com', 5.8, 140, '30', 'female'),
+   (111, 'alexy forster', '1990-06-17', '1345 atlanta oakstreet USA', '555-3456-1234', 'forstera@example.com', 5.6, 190, '32', 'male'),
+   (112, 'megan jenna', '1998--5-13', '2345 cambrdigestreet USA', '555-1980-4878', 'jenna@example.com', 5.8, 169, '27', 'female');
 
 insert into patients values
 (113, 'elena gilbert', '1990-5-15', '1346 oxfrodstreet USA', '555-1189-1111', 'elenag@example.com', 5.5, 155, '28', 'female'),
